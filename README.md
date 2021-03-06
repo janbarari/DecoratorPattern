@@ -6,7 +6,7 @@ Decorator pattern lets you dynamically change the behavior of an object at run t
 
 Wikipedia Says
 -------
-In OOP, The decorator pattern is a design pattern that allows behaviour to be added to an individual object, Either statically or dynamically, Without affecting the behaviour of other objects from the same class. The decorator is often useful for adhering ti the SRP, as it allows functionality to be divided between classes with unique areas of concern.
+In OOP, The decorator pattern is a design pattern that allows behaviour to be added to an individual object, Either statically or dynamically, Without affecting the behaviour of other objects from the same class. The decorator is often useful for adhering to the SRP, as it allows functionality to be divided between classes with unique areas of concern.
 
 ⬇️ Let me describe with an example
 ------
