@@ -4,8 +4,6 @@ fun main() {
 
     lateinit var pizza: Ingredient
 
-    //pizza = ChiliSauce(FrenchSauce(Mozarrella(HotDog(Dough()))))
-
     pizza = Dough()
     pizza = HotDog(pizza)
     pizza = Mozarrella(pizza)
