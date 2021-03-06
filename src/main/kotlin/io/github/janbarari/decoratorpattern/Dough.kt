@@ -2,10 +2,10 @@ package io.github.janbarari.decoratorpattern
 
 class Dough: Ingredient {
     override fun getDescription(): String {
-        return "Dough, "
+        return "Dough,"
     }
 
     override fun getCost(): Double {
-        return 0.80
+        return 1.0
     }
 }

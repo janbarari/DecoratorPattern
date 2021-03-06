@@ -1,8 +1,19 @@
 package io.github.janbarari.decoratorpattern
 
-fun main(args: Array<String>) {
+fun main() {
 
-    val pizza1 = FrenchSauce(HotDog(Mozarrella(Dough())))
-    println("Pizza 1\nDescription: ${pizza1.getDescription()}\nCost: ${pizza1.getCost()}$")
+    lateinit var pizza: Ingredient
+
+    //pizza = ChiliSauce(FrenchSauce(Mozarrella(HotDog(Dough()))))
+
+    pizza = Dough()
+    pizza = HotDog(pizza)
+    pizza = Mozarrella(pizza)
+    pizza = FrenchSauce(pizza)
+    pizza = ChiliSauce(pizza)
+
+    val ingredients = pizza.getDescription().split(",").filter { it.trim().isNotEmpty() }
+
+    println("Pizza\nDescription: ${ingredients}\nCost: $${pizza.getCost()}")
 
 }
