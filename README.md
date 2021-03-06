@@ -14,15 +14,20 @@ You can't do it, because in run-time you can't add those items to your program.
 If you want to create this order you need to create the new pizza item in the menu, which is not usable for other customers.
 
 Let's use the decorator pattern in the program and see how it will work.
-Instead of creating static pizza item's, you will create them dynamically at runtime
+Instead of creating static pizza item's, you will create them dynamically at runtime.
 
-For example, a pizza contains dough, some cheese, some type of sauce, vegetables, beef, tomato, and pepperoni 
-Whenever a customer wants to create a specific you can easily do it like below
+For example, a normal pizza contains dough, some cheese, some sauce, vegetables, beef, tomato, and pepperoni 
+Whenever a customer wants to create a specific one, You can easily do it like below
 1- add a dough
+
 2- add vegetables
+
 3- add tomato
+
 4- add beef
+
 5- add french sauce
+
 6- add extra cheese
 
 Then you will create the order easily at runtime without creating a new item in your menu.
