@@ -38,7 +38,10 @@ Sponsor
 If you like and use it, please tap the Star(⭐️) button at the above.  
 This library is free for all; hence, it's not profitable. You can make me happy by donating me :)
 
-[![Dogecoin Address](http://img.shields.io/badge/DB87foUxetrQRpAbWkrhexZeVtnzwyqhSL-yellow.svg?style=flat)]()
+![](https://img.shields.io/badge/Dogecoin-DB87foUxetrQRpAbWkrhexZeVtnzwyqhSL-yellow.svg?style=flat)
+
+![](https://img.shields.io/badge/Bitcoin-bc1qj30t3hmw0gat3vmwye972ce4sfrc5r5mz0ctr6-orange.svg?style=flat)
+
 
 License
 -------
