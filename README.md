@@ -34,6 +34,8 @@ Whenever a customer wants to create a specific one, You can easily do it like be
   
 Then you will create the order easily at runtime without creating a new item in your menu.
 
+In other words, we changed the behavior of the object, We couldn't get customer orders because our pizza ingredients and the cost were static, but with the decorator, the ingredients and cost will be dynamically changed.
+
 You can clone the source code and try to test it in action.
 
 Applicability
