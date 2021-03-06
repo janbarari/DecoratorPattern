@@ -29,9 +29,7 @@ Whenever a customer wants to create a specific one, You can easily do it like be
   
 Then you will create the order easily at runtime without creating a new item in your menu.
 
-You can clone the source code and try to test it in action
-
-If you like it
+You can clone the source code and try to test it in action.
 
 Sponsor
 -------
