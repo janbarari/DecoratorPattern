@@ -12,18 +12,14 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
-    testImplementation(kotlin("test-junit"))
+tasks.withType<Test> {
+    useJUnitPlatform()
 }
 
-tasks.test {
-    useJUnit()
+dependencies {
+    testImplementation("org.junit.jupiter:junit-jupiter:5.4.2")
 }
 
 tasks.withType<KotlinCompile>() {
     kotlinOptions.jvmTarget = "1.8"
-}
-
-application {
-    mainClassName = "MainKt"
 }
