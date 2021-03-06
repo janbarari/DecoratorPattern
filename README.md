@@ -38,9 +38,9 @@ Sponsor
 If you like and use it, please tap the Star(⭐️) button at the above.  
 This library is free for all; hence, it's not profitable. You can make me happy by donating me :)
 
-![](https://img.shields.io/badge/Dogecoin-DB87foUxetrQRpAbWkrhexZeVtnzwyqhSL-yellow.svg?style=flat)
+[![](https://img.shields.io/badge/Dogecoin-Click%20to%20see%20the%20address-yellow.svg?style=flat)](https://blockchair.com/dogecoin/address/DB87foUxetrQRpAbWkrhexZeVtnzwyqhSL)
 
-![](https://img.shields.io/badge/Bitcoin-bc1qj30t3hmw0gat3vmwye972ce4sfrc5r5mz0ctr6-orange.svg?style=flat)
+[![](https://img.shields.io/badge/Bitcoin-Click%20to%20see%20the%20address-orange.svg?style=flat)]("https://blockchair.com/bitcoin/address/bc1qj30t3hmw0gat3vmwye972ce4sfrc5r5mz0ctr6")
 
 
 License
