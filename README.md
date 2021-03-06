@@ -18,16 +18,12 @@ Instead of creating static pizza item's, you will create them dynamically at run
 
 For example, a normal pizza contains dough, some cheese, some sauce, vegetables, beef, tomato, and pepperoni 
 Whenever a customer wants to create a specific one, You can easily do it like below
-1- add a dough
-
-2- add vegetables
-
-3- add tomato
-
-4- add beef
-
-5- add french sauce
-
-6- add extra cheese
-
+  
+1- add a dough  
+2- add vegetables  
+3- add tomato  
+4- add beef  
+5- add french sauce  
+6- add extra cheese  
+  
 Then you will create the order easily at runtime without creating a new item in your menu.
