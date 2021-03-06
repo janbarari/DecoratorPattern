@@ -4,6 +4,8 @@ Decorator pattern lets you dynamically change the behavior of an object at run t
 [![](https://img.shields.io/badge/Extensibility-blue.svg?style=flat)](https://github.com/janbarari/decoratorpattern)
 [![](https://img.shields.io/badge/Structural-green.svg?style=flat)](https://github.com/janbarari/decoratorpattern)
 
+![](image.png)
+
 #### ⬇️ Let me describe with an example:
 Imagine you have a restaurant and want to create a menu for customers.
 Let's explain it by pizza menu, There are five different pizza which is on the menu.
@@ -26,3 +28,19 @@ Whenever a customer wants to create a specific one, You can easily do it like be
 5- add french sauce    
   
 Then you will create the order easily at runtime without creating a new item in your menu.
+
+You can clone the source code and try to test it in action
+
+If you like it
+
+Sponsor
+-------
+If you like and use it, please tap the Star(⭐️) button at the above.  
+This library is free for all; hence, it's not profitable. You can make me happy by donating me :)
+
+[![Dogecoin Address](http://img.shields.io/badge/DB87foUxetrQRpAbWkrhexZeVtnzwyqhSL-yellow.svg?style=flat)]()
+
+License
+-------
+Copyright (C) 2020 Mehdi Janbarari  
+The source code can be used according to the [Apache License, Version 2.0](LICENSE).
