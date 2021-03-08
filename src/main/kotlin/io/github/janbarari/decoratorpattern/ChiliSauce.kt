@@ -1,11 +1,9 @@
 package io.github.janbarari.decoratorpattern
 
-class ChiliSauce(private val decoratedIngredient: Ingredient): Ingredient {
-    override fun getDescription(): String {
-        return decoratedIngredient.getDescription() + "Chili-Sauce,"
-    }
+class ChiliSauce(private val decoratedIngredient: Ingredient) : Ingredient {
+    override fun getDescription(): String =
+        "${decoratedIngredient.getDescription()}, Chili-Sauce"
 
-    override fun getCost(): Double {
-        return decoratedIngredient.getCost() + 1
-    }
+    override fun getCost(): Double =
+        decoratedIngredient.getCost() + 1
 }
