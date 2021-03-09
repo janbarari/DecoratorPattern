@@ -7,7 +7,6 @@ import org.junit.jupiter.api.TestInstance
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class MakePizzaTest {
-
     lateinit var pizza: Ingredient
 
     @BeforeAll
@@ -26,7 +25,6 @@ class MakePizzaTest {
 
     @Test
     fun testDescription() {
-        assertEquals("Dough,Hot-Dog,Mozarrella,French-Sauce,Chili-Sauce,", pizza.getDescription())
+        assertEquals("Dough, Hot-Dog, Mozarrella, French-Sauce, Chili-Sauce", pizza.getDescription())
     }
-
 }
