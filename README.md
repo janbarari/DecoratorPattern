@@ -34,9 +34,20 @@ Whenever a customer wants to create a specific one, You can easily do it like be
   
 Then you will create the order easily at runtime without creating a new item in your menu.
 
-In other words, we changed the behavior of the object, We couldn't get customer orders because our pizza ingredients and the cost were static, but with the decorator, the ingredients and cost will be dynamically changed.
+In other words, we changed the behavior of the object, We couldn't get customer orders because our pizza ingredients, and the cost were static, but with the decorator, the ingredients and cost will be dynamically changed.
 
 You can clone the source code and try to test it in action.
+
+Intent
+------
+Attach additional responsibilities to an object dynamically. decorators provide a flexible alternative to subclassing  for extending functionality.
+
+Projects using decorator
+------
+- java.io.InputStream
+- java.io.OutputStream
+- java.io.Reader
+- java.io.Writer
 
 Applicability
 -------
@@ -44,6 +55,13 @@ Applicability
 - For responsibilities that  can be withdrawn.
 - When extension by subclassing is impractical. Sometimes a large number if independent extensions are possible and would produce an explosion of subclasses to support every combination. Or a class definition maybe hidden or otherwise unavailable for subclassing.
 
+Source
+------
+  - [Kudvenkat youtube tutorial](https://www.youtube.com/watch?v=rI4kdGLaUiQ&list=PL6n9fhu94yhUbctIoxoVTrklN3LMwTCmd)
+  - [Derek Banas youtube tutorial](https://www.youtube.com/watch?v=vNHpsC5ng_E&list=PLF206E906175C7E07)
+  - [Java-design-patterns.com](https://java-design-patterns.com/patterns/)
+  - [Refactoring.guru](https://refactoring.guru/design-patterns/)
+  
 Sponsor
 -------
 ### If you like and use it, please tap the Star(⭐️) button at the above.  
